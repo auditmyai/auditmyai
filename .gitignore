@@ -1,4 +1,4 @@
 /node_modules
-/dist
+/www
 .angular
 .DS_Store
