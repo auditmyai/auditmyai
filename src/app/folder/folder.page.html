@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder | titlecase }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder | titlecase }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-label class="ion-text-wrap">
+      <strong class="capitalize">{{ title }}</strong>
+    </ion-label>
+
+    <ion-item lines="none" class="ion-padding-top">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col class="ion-no-padding ion-text-center">
+            <ion-label class="ion-text-wrap"> {{ message }} </ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item lines="none" class="ion-padding-top">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col class="ion-no-padding ion-text-center">
+            <a target="_blank" rel="noopener noreferrer" href="mailadmin@auditmyai.com">admin&#64;auditmyai.com</a>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "auditmyai",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
